@@ -28,5 +28,24 @@
 ### 1. General Overview
 ### 2. Scope
 ### 3. Systems
+#### 1. Cabin Management Systems (CMS)
+1. Control Methods <br>
+Methodology <br>
+   Control and third party interfaces should be simple to configure, command and replicate. Command and control should not propritary and should be maintained publically (Open source).
+   Benefits in following this methodology include the following:
+      + Faster third party integration.
+      + Common training across the aviation community.
+      + Faster and logical troubleshooting. 
+      <br>
+   1. Discrete Logic <br>
+      The use of discrete logic shall be the preferred means of system interaction. <br>
+   2. Network API
+2. Status and Reporting
+   
 ### 4. List of Terms
+API: Application Programming Interface
+CMS: Cabin Manaagment System <br>
+ECS: Environmental Control System <br>
+IFE: In-flight Entertainment <br>
+
 ### 5. References
