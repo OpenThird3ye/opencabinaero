@@ -43,7 +43,7 @@
    2. Status and Reporting
    
 ### 4. List of Terms
-API: Application Programming Interface
+API: Application Programming Interface <br>
 CMS: Cabin Manaagment System <br>
 ECS: Environmental Control System <br>
 IFE: In-flight Entertainment <br>
