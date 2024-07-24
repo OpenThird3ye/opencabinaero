@@ -10,7 +10,7 @@
 2. Scope
    This specification sets the minimum standards for communication, reporting and intergration of aerospace cabin systems. 
 3. Systems
-   1. Cabin Management Systems (CMS)
+   1. [Cabin Management Systems]
       1. Control
       2. Status and Reporting
    2. In-flight Entertainment (IFE)
@@ -30,7 +30,7 @@
 ### 1. General Overview
 ### 2. Scope
 ### 3. Systems
-#### 1. Cabin Management Systems (CMS)
+#### 1. Cabin Management Systems
    1. Control Methods
    **Methodology**
       CMS controls and third party interfaces should be simple to configure, command and replicate. Command and control should refrain from propritary methods and should be maintained publically (Open source).
@@ -64,6 +64,7 @@
 #### 3. Lighting
 #### 4. Environmental Control (ECS)
 #### 5. Cabin Networks
+
           
 ### 4. List of Terms
 API: Application Programming Interface  
