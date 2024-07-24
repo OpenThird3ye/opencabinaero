@@ -1,7 +1,8 @@
 # Open Cabin Aero
 [July 10th, 2024]: #
 [Draft]: #
-[Created: D. Hall]: #
+[Created: C. Hall]: #
+[Contributors:   ]: #
 
 ## Specification for Open Commumincation in Aerospace Cabin Systems
 
@@ -23,7 +24,10 @@
    5. Cabin Networks
       1. DHCP Server
       2. Security
-      3. WLAN
+      3. LAN
+      4. WLAN
+      5. VLAN
+      6. Status and Reporting
 4. List of Terms
 5. References  
    
@@ -51,7 +55,7 @@
          + System/LRU Powered On.
          + System/LRU Failed.
        2. Network API
-          The system should have the capability to be queiried by a REST or WEB API. The API should follow the system methodology in **Section 3.1.1**.
+          The system should have the capability to be queiried by a REST or WEB API. 
           + System/LRU ON.
           + System/LRU Failed.
           + System/LRU Failed Code or reason (ASCII).
@@ -64,8 +68,29 @@
 #### 3. Lighting
 #### 4. Environmental Control (ECS)
 #### 5. Cabin Networks
-
-          
+1. DHCP Server
+   + There shall be one dedicated DHCP server for the cabin
+   + TBD
+3. Security
+   + TBD
+5. LAN
+6. WLAN
+7. VLAN
+   + VLANs 1-9 shall be reserved for router and WAN related interfaces.
+     
+8. Status and Reporting
+  1. Discrete Logic
+     The use of discrete logic shall be the preferred means of system status and reporting for the following.
+     + System/LRU Powered On.
+     + System/LRU Failed.
+     + WLAN Status
+  3. Network API
+     The system should have the capability to be queiried by a REST or WEB API.
+     + System/LRU ON.
+     + System/LRU Failed.
+     + System/LRU Failed Code or reason (ASCII).
+  5. MQTT
+     + TBD
 ### 4. List of Terms
 API: Application Programming Interface  
 CMS: Cabin Management System  
@@ -74,3 +99,4 @@ IFE: In-flight Entertainment
 LRU: Line Replaceable Unit  
 
 ### 5. References
+[MQTT](https://mqtt.org/)
