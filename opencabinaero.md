@@ -55,15 +55,15 @@
           + System/LRU ON.
           + System/LRU Failed.
           + System/LRU Failed Code or reason (ASCII).
-##### 2. In-flight Entertainment (IFE)
+#### 2. In-flight Entertainment (IFE)
    1. Audio
    2. Video
    3. Control
    4. Status and Reporting
          
-##### 3. Lighting
-##### 4. Environmental Control (ECS)
-##### 5. Cabin Networks
+#### 3. Lighting
+#### 4. Environmental Control (ECS)
+#### 5. Cabin Networks
           
 ### 4. List of Terms
 API: Application Programming Interface  
