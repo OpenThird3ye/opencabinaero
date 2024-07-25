@@ -30,8 +30,8 @@
       4. WLAN
       5. VLAN
       6. Status and Reporting --->
-10. List of Terms
-11. References  
+4. List of Terms
+5. References  
    
 ### 1. General Overview
 ### 2. Scope
@@ -97,12 +97,12 @@ This specification sets the minimum standards for communication, reporting and i
      + System/LRU Failed Code or reason (ASCII).
   3. MQTT
      + TBD
-### 10. List of Terms
+### 4. List of Terms
 API: Application Programming Interface  
 CMS: Cabin Management System  
 ECS: Environmental Control System  
 IFE: In-flight Entertainment  
 LRU: Line Replaceable Unit  
 
-### 11. References
+### 5. References
 [MQTT](https://mqtt.org/)
